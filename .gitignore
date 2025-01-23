@@ -1,0 +1,43 @@
+# macOS system files
+.DS_Store
+.AppleDouble
+.LSOverride
+# macOS resource forks
+._*
+# Thumbnails
+Thumbs.db
+# Editor directories and files
+.vscode/
+.idea/
+*.swp
+*.swo
+# Log files
+*.log
+# Frontend Mentor instructions
+design/
+figma/
+instructions/
+# Dependency directories
+node_modules/
+# Build output
+dist/
+build/
+# Environment files
+.env
+.env.local
+.env.*.local
+# Miscellaneous
+*.tmp
+*.bak
+*.old
+*.orig
+# Git-specific
+*.patch
+*.rej
+*.diff
+# Package files
+package-lock.json
+yarn.lock
+# Other OS-specific files
+.Spotlight-V100
+.Trashes
