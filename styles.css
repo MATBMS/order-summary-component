@@ -9,30 +9,22 @@
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background-color: lightblue;
+}
+
+body {
+  background-image: url('./assets/images/pattern-background-desktop.svg');
+  background-size: 100% 46%;
+  background-repeat: no-repeat;
+  background-color: #E0E8FF;
 }
 
 /* == TYPOGRAPHY == */
 
-/* Import Read-Hat-Regular font */
 @font-face {
   font-family: 'Red-Hat';
   src: url('./assets/fonts/RedHatDisplay-VariableFont_wght.ttf') format('truetype');
 }
 
-/* Import Read-Hat-SemiBold font */
-/* @font-face {
-  font-family: 'Read-Hat-SemiBold';
-  src: url('./assets/fonts/static/Read-Hat-SemiBold.ttf') format('truetype');
-} */
-
-/* Import Read-Hat-Bold font */
-/* @font-face {
-  font-family: 'Read-Hat-Bold';
-  src: url('./assets/fonts/static/Read-Hat-Bold.ttf') format('truetype');
-} */
-
-/* Style p */
 h1,
 h2 {
   font-family: 'Red-Hat';
@@ -101,6 +93,10 @@ p {
   margin-right: 94px;
 }
 
+.plan-price {
+  margin-top: 6px;
+}
+
 .change-plan:link,
 .change-plan:visited {
   color: #382AE1;
@@ -126,6 +122,7 @@ p {
   color: #FFFFFF;
   border: none;
   cursor: pointer;
+  box-shadow: 0 0 0 #382AE1;
 }
 
 .proceed-btn:hover {
