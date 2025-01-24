@@ -9,11 +9,144 @@
   justify-content: center;
   align-items: center;
   height: 100vh;
+  background-color: lightblue;
+}
+
+/* == TYPOGRAPHY == */
+
+/* Import Read-Hat-Regular font */
+@font-face {
+  font-family: 'Red-Hat';
+  src: url('./assets/fonts/RedHatDisplay-VariableFont_wght.ttf') format('truetype');
+}
+
+/* Import Read-Hat-SemiBold font */
+/* @font-face {
+  font-family: 'Read-Hat-SemiBold';
+  src: url('./assets/fonts/static/Read-Hat-SemiBold.ttf') format('truetype');
+} */
+
+/* Import Read-Hat-Bold font */
+/* @font-face {
+  font-family: 'Read-Hat-Bold';
+  src: url('./assets/fonts/static/Read-Hat-Bold.ttf') format('truetype');
+} */
+
+/* Style p */
+h1,
+h2 {
+  font-family: 'Red-Hat';
+  text-align: center;
+  color: #1F2E55;
+  font-weight: 800;
+}
+
+h1 {
+  font-size: 28px;
+}
+
+h2 {
+  font-size: 16px;
+}
+
+p {
+  font-family: 'Red-Hat';
+  text-align: center;
+  font-size: 16px;
+  color: #717FA6;
+  font-weight: 500;
 }
 
 /* == CARD == */
+
 .card {
   display: flex;
   flex-direction: column;
-  width: 380px;
+  width: 450px;
+}
+
+.content {
+  background-color: white;
+  padding: 48px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+/* == ILLUSTRATION == */
+
+.illustration-hero {
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+/* == DESCRIPTION == */
+
+.description {
+  margin-top: 17px;
+}
+
+/* == PRICE == */
+
+.price {
+  display: flex;
+  align-items: center;
+  background-color: #F7F9FF;
+  margin: 20px 0px;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+.annual-plan {
+  margin-left: 20px;
+  margin-right: 94px;
+}
+
+.change-plan:link,
+.change-plan:visited {
+  color: #382AE1;
+  font-size: 14px;
+  font-weight: 800;
+  font-family: 'Red-Hat';
+}
+
+.change-plan:hover {
+  color: #766CF1;
+  text-decoration: none;
+}
+
+/* == BUTTON == */
+
+.proceed-btn {
+  width: 100%;
+  margin-top: 32px;
+  margin-bottom: 32px;
+  height: 50px;
+  border-radius: 11px;
+  background-color: #382AE1;
+  color: #FFFFFF;
+  border: none;
+  cursor: pointer;
+}
+
+.proceed-btn:hover {
+  background-color: #766CF1;
+}
+
+.proceed-btn,
+.cancel-btn {
+  font-size: 15px;
+  font-weight: 800;
+  font-family: 'Red-Hat';
+}
+
+.cancel-btn:link,
+.cancel-btn:visited {
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  color: #717FA6;
+}
+
+.cancel-btn:hover {
+  color: #1F2E55;
 }
