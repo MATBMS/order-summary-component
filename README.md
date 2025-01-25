@@ -16,16 +16,14 @@ The project focuses on creating a visually appealing and functional card compone
 
 ### Screenshot
 
-![Order Summary Component Screenshot](./screenshot.png)
-
-> Screenshot of the project after completion. Make sure to replace the placeholder image with your actual project screenshot.
+![Order Summary Component Screenshot](./assets/images/desktop-preview.jpg)
 
 ---
 
 ## Links
 
-- [Solution URL](#): Your solution's Frontend Mentor page.
-- [Live Site URL](#): Link to your deployed project.
+- [Solution URL](https://github.com/MATBMS/order-summary-component): Your solution's Frontend Mentor page.
+- [Live Site URL](https://matbms.github.io/order-summary-component/): Link to your deployed project.
 
 ---
 
