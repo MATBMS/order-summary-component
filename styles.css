@@ -84,7 +84,7 @@ p {
   display: flex;
   align-items: center;
   background-color: #F7F9FF;
-  margin: 20px 0px;
+  margin-top: 20px;
   padding: 20px;
   border-radius: 20px;
 }
@@ -104,6 +104,7 @@ p {
   font-size: 14px;
   font-weight: 800;
   font-family: 'Red-Hat';
+  text-underline-offset: 4px;
 }
 
 .change-plan:hover {
@@ -115,8 +116,6 @@ p {
 
 .proceed-btn {
   width: 100%;
-  margin-top: 32px;
-  margin-bottom: 32px;
   height: 50px;
   border-radius: 11px;
   background-color: #382AE1;
@@ -132,6 +131,7 @@ p {
 
 .proceed-btn,
 .cancel-btn {
+  margin-top: 32px;
   font-size: 15px;
   font-weight: 800;
   font-family: 'Red-Hat';
