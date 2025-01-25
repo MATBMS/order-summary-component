@@ -75,6 +75,7 @@ p {
 
 .description {
   margin-top: 17px;
+  line-height: 26px;
 }
 
 /* == PRICE == */
@@ -146,4 +147,61 @@ p {
 
 .cancel-btn:hover {
   color: #1F2E55;
+}
+
+@media (max-width: 450px) {
+  .content {
+    padding: 24px;
+  }
+
+  h1 {
+    font-size: 22px;
+  }
+
+  h2 {
+    font-size: 14px;
+    width: 81px;
+  }
+
+  p {
+    font-size: 15px;
+  }
+
+  .card {
+    width: 327px;
+  }
+
+  .description {
+    line-height: 25px;
+  }
+
+  .price {
+    margin-top: 24px;
+    margin-bottom: 0;
+    padding: 16px;
+  }
+
+  .annual-plan {
+    margin-left: 20px;
+    margin-right: 50px;
+  }
+
+  .plan-price {
+    font-size: 14px;
+    margin-top: 3px;
+  }
+
+  .change-plan {
+    font-size: 13px;
+  }
+
+  .proceed-btn {
+    margin-top: 24px;
+    margin-bottom: 0;
+  }
+
+  .cancel-btn {
+    margin-top: 24px;
+    margin-bottom: 8px;
+  }
 }
